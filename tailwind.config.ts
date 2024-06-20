@@ -8,10 +8,25 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      // backgroundImage: {
+      //   "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+      //   "gradient-conic":
+      //     "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      // },
+      fontFamily: {
+        eestec: ["Roboto", "sans-serif"],
+      },
+      colors: {
+        eestec: "#E6BB99",
+      },
+      backgroundColor: {
+        eestec: "#082428",
+      },
+      fill: {
+        eestec: "#082428",
+      },
+      border: {
+        eestec: "#FFF8EE",
       },
     },
   },
